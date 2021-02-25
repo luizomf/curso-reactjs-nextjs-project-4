@@ -21,6 +21,10 @@ exports[`<GridTwoColumns /> should render two column grid 1`] = `
   margin-bottom: 4.0rem;
 }
 
+.c7 {
+  width: 100%;
+}
+
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
@@ -95,7 +99,7 @@ exports[`<GridTwoColumns /> should render two column grid 1`] = `
         >
           <img
             alt="Grid two columns"
-            class=""
+            class="c7"
             src="assets/images/javascript.svg"
           />
         </div>
