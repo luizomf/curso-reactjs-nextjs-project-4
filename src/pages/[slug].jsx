@@ -7,7 +7,7 @@ export default function Page({ data }) {
 }
 
 Page.propTypes = {
-  data: P.object,
+  data: P.array,
 };
 
 export const getStaticPaths = async () => {
