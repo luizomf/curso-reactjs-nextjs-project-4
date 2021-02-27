@@ -10,7 +10,7 @@ export default function Index({ data = null }) {
   return <Home data={data} />;
 }
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   let data = null;
 
   try {
