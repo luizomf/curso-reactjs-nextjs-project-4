@@ -34,4 +34,4 @@ export const theme = {
     huge: '5.6rem',
     xhuge: '6.4rem',
   },
-};
+} as const;
