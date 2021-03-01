@@ -27,12 +27,8 @@ export const TextContainer = styled.div`
   `}
 `;
 
-export const ImageContainer = styled.div`
-  ${({ theme }) => css``}
-`;
+export const ImageContainer = styled.div``;
 
 export const Image = styled.img`
-  ${({ theme }) => css`
-    width: 100%;
-  `}
+  width: 100%;
 `;

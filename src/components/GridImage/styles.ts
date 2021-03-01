@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components';
-import { Title as HeadingContainer } from '../Heading/styles';
 import { Container as TextComponent } from '../TextComponent/styles';
 
 export const Container = styled.div`
@@ -23,18 +22,14 @@ export const Grid = styled.div`
 `;
 
 export const GridElement = styled.div`
-  ${({ theme }) => css`
-    overflow: hidden;
-  `}
+  overflow: hidden;
 `;
 
 export const Image = styled.img`
-  ${({ theme }) => css`
-    width: 100%;
-    transition: all 300ms ease-in-out;
+  width: 100%;
+  transition: all 300ms ease-in-out;
 
-    &:hover {
-      transform: scale(1.2) rotate(10deg);
-    }
-  `}
+  &:hover {
+    transform: scale(1.2) rotate(10deg);
+  }
 `;

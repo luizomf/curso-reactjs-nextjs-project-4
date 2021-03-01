@@ -26,20 +26,18 @@ export const Grid = styled.div`
 `;
 
 export const GridElement = styled.div`
-  ${({ theme }) => css`
-    ${HeadingContainer} {
-      position: relative;
-      left: 5rem;
-    }
+  ${HeadingContainer} {
+    position: relative;
+    left: 5rem;
+  }
 
-    ${HeadingContainer}::before {
-      counter-increment: grid-counter;
-      content: counter(grid-counter);
-      position: absolute;
-      font-size: 7rem;
-      top: -3rem;
-      left: -5rem;
-      transform: rotate(5deg);
-    }
-  `}
+  ${HeadingContainer}::before {
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    position: absolute;
+    font-size: 7rem;
+    top: -3rem;
+    left: -5rem;
+    transform: rotate(5deg);
+  }
 `;
