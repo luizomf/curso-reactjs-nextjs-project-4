@@ -12,6 +12,7 @@
     "test": "jest",
     "deploy-static": "npm run build && npm run export",
     "lint": "eslint src --max-warnings=0",
+    "lint-staged": "lint-staged",
     "prepare": "husky install"
   },
   "dependencies": {
