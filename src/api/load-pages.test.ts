@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const a = 1;
+const a = 2;
 
 import config from '../config';
 import { loadPages } from './load-pages';
