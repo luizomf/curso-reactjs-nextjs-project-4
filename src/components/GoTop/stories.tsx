@@ -1,3 +1,4 @@
+import { Meta, Story } from '@storybook/react/types-6-0';
 import { GoTop } from '.';
 
 export default {
@@ -9,9 +10,9 @@ export default {
   argTypes: {
     children: { type: 'string' },
   },
-};
+} as Meta;
 
-export const Template = (args) => {
+export const Template: Story = (args) => {
   return (
     <div style={{ height: '400vh' }}>
       <h1>Lorem ipsum dolor sit, amet</h1>
