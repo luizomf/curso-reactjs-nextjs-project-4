@@ -1,4 +1,3 @@
-import P from 'prop-types';
 import { GridContent } from '../../components/GridContent';
 
 export const PageNotFound = () => {
