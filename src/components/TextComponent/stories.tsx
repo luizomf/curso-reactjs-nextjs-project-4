@@ -1,4 +1,5 @@
-import { TextComponent } from '.';
+import { Meta, Story } from '@storybook/react/types-6-0';
+import { TextComponent, TextComponentProps } from '.';
 
 export default {
   title: 'TextComponent',
@@ -13,9 +14,9 @@ export default {
   argTypes: {
     children: { type: 'string' },
   },
-};
+} as Meta;
 
-export const Template = (args) => {
+export const Template: Story<TextComponentProps> = (args) => {
   return (
     <div>
       <TextComponent {...args} />
